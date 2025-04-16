@@ -3,70 +3,68 @@ package practice;
 public class Practice03 {
 
 	public static void main(String[] args) {
-		/*
-		1.
-		키보드를 가지고 있습니다. 키보드에 대한 여러 정보를 저장하고 싶은데
-		아래 데이터들에 따라서 필요한 변수들을 선언하고 값을 저장해보세요!
-
-		브랜드명 : 로지텍
-		상품명 : mx kyes
-		상품가격 : 135000
-		시리얼번호 : 332L1545K
-		*/
-		String brandName = "로지텍";
-		String product = "mx kyes";
-		int price = 135000;
-		String serialNumber = "332L1545K";
-
-		/*
-		2. 가지고 있는 모니터 정보를 저장할 필요가 생겼습니다.
-		관련 정보 저장을 위해 아래 데이터 저장을 위한 변수를 선언하고 값을 저장해보세요!
-
-		회사명 : SAMSUNG
-		모니터인치 : 24
-		모니터색상 : black
-		HDMI포트여부 : true
-		소리출력가능여부 : false
-		*/
-		String companyName = "SAMSUNG";
-		int inch = 24;
-		String color = "black";
-		boolean hdmi = true;
-		boolean sound = false;
+//		1. 아래 1), 2) 에 맞게 풀이.
 		
+//	1) 결과가 2가 나오도록 작성하세요
+	/*int x = 10;
+	int y = 4;
+	int result = x/y;
+	System.out.println(result);*/
+//		
+//	2) 결과가 2.5가 나오도록 작성하세요
+//		int x = 10;
+//		int y = 4;
+//		double result = (double)x/y;
+//		System.out.println(result);
+//
+//	2. 결과가 7.5가 나오도록 작성하세요
+//	double a = 3.5; 
+//	double b = 4.7; //실수형 4.7에서 정수형 4로 강제변환하기
+//	double result = a + (int)b;
+//	System.out.println(result);
 
-		//3. 3.14 값을 가지고 있는 pi 라는 실수형 변수를 만들고 화면에 출력하세요.
-		//예시) 원주율 : 3.14
-		double pi = 3.14;
-		System.out.println("원주율 : " + pi);
+//	3. 계산결과가 12가 나오도록 작성하세요
+	/*String a = "3.4";
+	String b = "4";
+	int result = (int)Double.parseDouble(a) 
+				      * Integer.parseInt(b);
+	System.out.println(result);*/
 
-		/*
-		4. 세 개의 문자열 변수가 우리에게 주어졌습니다. 그런데 해당 문자열 변수는 어떤 학생의 점수를 가지고 있습니다.
-		주어진 점수들의 전체 합을 계산하고 싶습니다. 모든 점수를 더해서 총점이 얼마인지 출력하세요.
-		(*힌트 : 숫자처럼 덧셈을 하기위해서는 숫자형태로의 변환이 필요합니다.)*/
+//
+//	4. 계산결과가 "1013" 이 나오도록 코드를 작성하세요.
+//	String a = "10";
+//	int b = 3;
+//	double c = 4.5;
+//	
+//	String sum = a + (b * c); //sum =
+//	int result = (int)Double.parseDouble(a + b * c);
+//	String result = a +((int)(b*c));
+//	System.out.println(result);
 
+//
+//		(========5번은 도저히 모르겠습니다.===========)
+//	5. 계산결과가 "243" 이 나오도록 코드를 작성하세요. 
+	int a = 4;
+	double b = 3.4;
+	String c = "6.8"; 
+	
+	String result = ((int)Double.parseDouble(c) - a) + String.valueOf(a)  + (int)b;
+	System.out.println(result);
+//		(========5번은 도저히 모르겠습니다.===========)
+
+//
+//	6. 계산 결과가 아래와 같이 나오도록 코드를 작성하세요.
+//	1) 출력결과 : 7
+//	int x = 111;
+//	int y = 13;
+//	int result = x%y;
+//	System.out.println(result);
 		
-		String mathScore = "85";
-		String englishScore = "90";
-		String artScore = "70";
-		
-		int mathScoreInt = Integer.parseInt(mathScore);
-		int englishScoreInt = Integer.parseInt(englishScore);
-		int artScoreInt = Integer.parseInt(artScore);
-		
-		System.out.println(mathScoreInt + englishScoreInt + artScoreInt);
-
-		/*
-		5. 조카에게 나눗셈 계산하는 연습을 시키고 있습니다.
-		4 / 10 을 실행시켜서 결과가 0.4 가 나오는 것을 보여주려고 하는데 아래 계산 결과가 맞지 않습니다.
-		정상적으로 0.4 가 계산되서 출력되도록 만들어주세요.*/
-
-		int num1 = 4;
-		int num2 = 10;
-		double num3 = (double)num1 / num2 ;
-		System.out.println( num3 );
-
-		
+//	2) 출력결과 : 8
+//	int x = 111;
+//	int y = 13;
+//	int result = x/y;
+//	System.out.println(result);
 
 	}
 
