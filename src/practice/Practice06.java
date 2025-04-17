@@ -43,11 +43,11 @@ public class Practice06 {
 		// 십의자리 : 5
 		// 일의자리 : 8
 		System.out.print("숫자 입력 : ");
-		int num = scan.nextInt();
+		int n = scan.nextInt();
 		
-		int first = num/100;
-		int second = (num/10)%10;
-		int third = num%10;
+		int first = n/100;
+		int second = (n/10)%10;
+		int third = n%10;
 		
 		System.out.println("백의자리 : " + first);
 		System.out.println("십의자리 : " + second);
