@@ -51,6 +51,20 @@ public class Conditional02 {
 		}else {
 			System.out.println("훌륭");
 		}
+		//if조건문 -> 중첩 사용 가능
 		
+		if(menuPrice > 6000){
+			if(menuPrice > 12000) {
+			
+		
+			System.out.println("훌륭");
+		}else if(menuPrice > 8000) {
+			System.out.println("선방");
+		}else if(menuPrice > 12000) {
+			System.out.println("눈물");
+		}else {
+			System.out.println("물로 배채우기");
+		}
 	}
 }
+} 
