@@ -48,10 +48,11 @@ public class Iteration03 {
 		for(i=1; i<=5; i++) {
 			
 			
-			if(i==5)
+			if(i==5 || i==8)
 				continue;
 				//break;
-			System.out.println(i);
+			
+			System.out.println(i); //위치에 따라 결과값이 달라짐
 		}
 	}
 

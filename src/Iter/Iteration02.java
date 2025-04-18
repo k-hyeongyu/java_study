@@ -26,6 +26,43 @@ public class Iteration02 {
 			System.out.println(i);	
 		}
 		System.out.println("=================================");
+		
+//		for(int c=0; c<=5; c++) {
+//			for() {
+//				
+//			}
+//		}
+		//do while
+		do {
+			System.out.println("i<5");
+		}while(i<5); //do while은 중괄호 뒤에 ;(세미콜론)이 필요함ㅁㄴ
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }

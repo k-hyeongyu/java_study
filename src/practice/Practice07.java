@@ -93,8 +93,7 @@ public class Practice07 {
 			
 			if(number == 1 || number == 3) {
 				System.out.println(age + "살 남자");
-			}else {
-8				
+			}else {			
 			}
 				
 		}else {

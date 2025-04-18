@@ -1,94 +1,37 @@
 package practice;
 
+import java.util.Scanner;
+
 public class Practice10 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("=======1번=======");
+		Scanner scan = new Scanner(System.in);
 		
-		int i;
-
-		for(i=0; i<=10; i++) {
-			System.out.println(i);
-		}
-
-		System.out.println("=======2번=======");
-
-		for(i=1; i<10; i++) {
-			System.out.println(i);
-		}
-
-		System.out.println("=======3번=======");
-
-		for(i=10; i<=100; i+=10) {
-			System.out.println(i);
-		}
-
-		System.out.println("=======4번=======");
-
-		for(i=25; i<=100; i+=25) {
-			System.out.println(i);
-		}
-
-		System.out.println("=======5번=======");
-
-		i = 50;
-		while(i<=55) {
-			System.out.println(i);
-			i++;
-		}
-
-		System.out.println("=======6번=======");
-
-		i = 10;
-		while(i>=1) {
-			//i--; 를 아래 넣지 않고 위에 넣게 되면 시작부터 감소를 하고 9로 시작을 하게 된다.
-			System.out.println(i);
-			i--;
-		}
-
-		System.out.println("=======7번=======");
-
-		i = 30;
-		while(i >= 0) {
-			System.out.println(i);
-			i -=5;
+		System.out.print("국어점수 : ");
+		int lang = scan.nextInt();
+		System.out.print("수학점수 : ");
+		int math = scan.nextInt();
+		System.out.print("영어점수 : ");
+		int eng = scan.nextInt();
+		
+		int total = lang + math + eng;
+		double avg = total/3.0;
+		//      1              1        1       1
+		if(lang  < 40 || math <40 || eng <40 || avg <60) {
+			//각 과목의 점수가 40점 미만  평균 또한 60점 미만일때 불합격을 출력한다.
+ 			System.out.println("불합격입니다.");
+		}else {
+			System.out.println("국어점수 :" + lang);
+			System.out.println("수학점수 :" + math);
+			System.out.println("영어점수 :" + eng);
+			System.out.println("합계 :" + total);
+			System.out.println("평균 :" + avg);
+			System.out.println("축하합니다. 합격입니다!");
 		}
 		
-		System.out.println("=======8번=======");
-
-		i = 30;
-		while(i >= 5) {
-			System.out.println(i);
-			i -=5;
-		}
 		
-		System.out.println("=======9번=======");
-
-		i = 25;
-		while(i >= 0) {
-			System.out.println(i);
-			i -=5;
-		}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
 	}
 
 }
