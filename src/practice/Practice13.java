@@ -6,13 +6,13 @@ public class Practice13 {
 
 	public static void main(String[] args) {
 
-		//		prac01();
-		//		prac02();
-		//		prac03();
-		//		prac04();
-		//		prac05();
-		//prac06();
-				prac07();
+		//	prac01();
+		//	prac02();
+		//	prac03();
+		//	prac04();
+		//	prac05();
+		//	prac06();
+		//	prac07();
 	}
 	public static void prac01() {
 
