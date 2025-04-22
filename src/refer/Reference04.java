@@ -20,7 +20,17 @@ public class Reference04 {
 		//참조변수는 기본적으로 어딘가를 가르키고 있다.
 		
 		System.out.println(arr3 == arr4);
-		System.out.println(arr3[0] == arr4[0]);
+		//System.out.println(arr3[0] == arr4[0]); //정확한 좌표를 지정하면 true가 나옴
+		System.out.println(arr3[0].equals(arr4[0])); //String값은 보편적으로 .equals로 비교
+		
+		
+		
+		
+		
+		
+		
+		
+	
 	}
 
 }
