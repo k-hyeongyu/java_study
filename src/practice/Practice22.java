@@ -10,8 +10,8 @@ public class Practice22 {
 		//		prac02();
 		//		prac03();
 		//		prac04();
-		//	    prac05();
-		prac06();
+			    prac05();
+		//prac06();
 	}
 	public static void prac01() {
 		/*
@@ -74,7 +74,7 @@ public class Practice22 {
 	public static void prac06() {
 		
 		int sum = 0;
-		int i = 1;
+		int i = 0;
 		
 		while(true) {
 			if(i%2==0) { //짝수
@@ -82,10 +82,9 @@ public class Practice22 {
 			}else {		 //홀수
 				sum = sum + i;
 			}
-			
+						
 			if(sum >= 100)
 				break;
-			
 			i++;
 		}
 		System.out.println("100이 넘는 시점의 누적합 : " +sum);
