@@ -14,8 +14,6 @@ public class Practice19_4 {
 		for(int i =0; i<x; i++) {
 			System.out.print("*");
 		}
-		
 
 	}
-
 }
