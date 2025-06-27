@@ -15,15 +15,13 @@ public class Exp02 {
 			//ArrayIndexOutOfBoundsException
 			arr[10] = 10;
 			
-		} catch(ArrayIndexOutOfBoundsException e){
+		} catch(ArrayIndexOutOfBoundsException e) {
 			System.out.println("ArrayIndexOutOfBoundsException 발생함");
-		} catch(NullPointerException e) { 
+		} catch (NullPointerException e) {
 			System.out.println("NullPointerException 발생함");
-		} catch(Exception e) {
+		} catch (Exception e) {
 			System.out.println("Exception 발생함");
 		}
-		
-		
-		
 	}
+
 }
