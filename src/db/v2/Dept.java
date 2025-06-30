@@ -1,53 +1,49 @@
 package db.v2;
 
-
-
 //DB 테이블에서 읽어온 데이터를 저장하는 역할
 //DTO (Data Transfer Object)
-public class Dept {  //DeptDTO
+public class Dept { // DeptDTO
 
-int deptno;
-String dname;
-String loc;
+	int deptno;
+	String dname;
+	String loc;
 
-public Dept() {}
+	public Dept() {
+	}
 
-public Dept(int deptno, String dname, String loc) {
-this.deptno = deptno;
-this.dname = dname;
-this.loc = loc;
-}
+	public Dept(int deptno, String dname, String loc) {
+		this.deptno = deptno;
+		this.dname = dname;
+		this.loc = loc;
+	}
 
-public int getDeptno() {
-return deptno;
-}
+	public int getDeptno() {
+		return deptno;
+	}
 
-public void setDeptno(int deptno) {
-this.deptno = deptno;
-}
+	public void setDeptno(int deptno) {
+		this.deptno = deptno;
+	}
 
-public String getDname() {
-return dname;
-}
+	public String getDname() {
+		return dname;
+	}
 
-public void setDname(String dname) {
-this.dname = dname;
-}
+	public void setDname(String dname) {
+		this.dname = dname;
+	}
 
-public String getLoc() {
-return loc;
-}
+	public String getLoc() {
+		return loc;
+	}
 
-public void setLoc(String loc) {
-this.loc = loc;
-}
+	public void setLoc(String loc) {
+		this.loc = loc;
+	}
 
 	@Override
 	public String toString() {
 		return "Dept [deptno=" + deptno + ", dname=" + dname + ", loc=" + loc + "]";
 	}
-	
-
-
 
 }
